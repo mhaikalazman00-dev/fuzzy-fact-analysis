@@ -68,27 +68,21 @@ This analysis followed a standard data analytics pipeline:
      - end-of-week sales aggregation
      - journey map label
      - QoQ growth
-6. **Visualization:** Built interactive dashboards to highlight key trends.
+6. **Visualization:** Built charts and visuals to highlight key trends (refer to gallery).
 
 ## 💡 Key Findings & Insights
 Based on the analysis, the following insights were discovered:
 
-- **Insight 1:** [Headline] – [Brief explanation of the finding and its significance].
-- **Insight 2:** [Headline] – [Explanation].
-- **Insight 3:** [Headline] – [Explanation].
+- **Insight 1:** Weekend-Weekday Traffic Gap – Maven Fuzzy Factory has significantly lesser traffic during weekends compared to weekdays, while maintaining similar conversion rates. This leads to weekly sales dips and signals lost opportunities for the business. While QoQ shows steady growth throughout the 3-year period, the gap between weekend sales and weekday sales are widening. Optimizing weekend traffic to scale with weekday sales  by even 10% has the potential to increase yearly revenue by over USD13k.
+- **Insight 2:** Consolidated Products Portfolio – Maven Fuzzy Factory's product line are consolidated into 2; collectibles and commemorative plushies. 3 of the products have similar price band. The similarities will be appeal to narrower segments when the business could offer more segmentation to cater to customers' interests.
+- **Insight 3:** Constrained Product Visibility – Despite the consolidated product portfolios, `The Original Mr. Fuzzy` is the most popular item, accounting for more than half of the sales. This raises a concern that other products are overshadowed by the `The Original Mr. Fuzzy`.
+- **Insight 4:** Lack of Seasonality – On top of the visibility concerns and consolidated products portfolio, there is a concern for future losses in the next seasonal cycle. Analysis shows that `The Original Mr. Fuzzy`'s sales drops by almost half on Valentine's day, while `The Forever Love Bear` sales spikes by three times their typical sales. Currently, `The Original Mr. Fuzzy`'s losses are covered by `The Forever Love Bear`'s sales, but the coverage are decreasing due to `The Forever Love Bear`'s sales are unable to scale with `The Original Mr. Fuzzy`.
 
-### Statistical Highlights
-| Metric | Value |
-| :--- | :--- |
-| Total Revenue | $[Amount] |
-| Average Order Value | $[Amount] |
-| Top Performing Region | [Region Name] |
-| Churn Rate | [Percentage]% |
 
 ## 📊 Visualization Gallery
 *Below are key screenshots from the analysis. Click to view the interactive dashboard.*
 
-![Dashboard Overview](path/to/screenshot1.png)
+![Sankey Diagram](path/to/newplot (1).png)
 *Figure 1: Overview of sales performance by region.*
 
 ![Trend Analysis](path/to/screenshot2.png)
