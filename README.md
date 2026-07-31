@@ -33,31 +33,42 @@ The dataset used for this analysis was obtained from [Maven Analytics](https://m
 - **Record Count:**
    - orders_df: 32313
    - order_items_df: 40025
-   - 
+   - sessions_df: 472871
+   - pageviews_df: 1188124
+ 
 - **Columns:** [Number] features (e.g., `customer_id`, `transaction_date`, `revenue`, `region`)
+  - orders_df: 8 features: `order_id`, `created_at`, `website_session_id`, `user_id`, `primary_product_id`, `items_purchased`, `price_usd`, `cogs_usd`
+  - order_items_df: 7 features: `order_item_id`, `created_at_id`, `order_id`, `product_id`, `is_primary_item`, `price_usd`, `cogs_usd`
+  - sessions_df: 9 features: `website_session_id`, `created_at`, `user_id`, `is_repeat_session`, `utm_source`, `utm_campaign`, `utm_content`, `device_type`, `http_referrer`
+  - pageviews_df: 4 features: `website_pageview_id`, `created_at`, `website_session_id`, `pageview_url`
 
 *Note: The raw data has been cleaned and pre-processed. See the [Methodology](#methodology) section for details.*
 
 ## 🛠 Tools & Technologies
-- **Data Extraction/Storage:** [e.g., SQL, Python (Pandas), Excel]
-- **Data Cleaning:** [e.g., Python (Pandas/NumPy), OpenRefine]
-- **Exploratory Data Analysis (EDA):** [e.g., Jupyter Notebooks, R]
-- **Visualization & Dashboarding:** [e.g., Tableau, Power BI, Matplotlib/Seaborn]
-- **Version Control:** Git/GitHub
+- **Data Extraction/Storage:** Python | Pandas
+- **Data Cleaning:** Python | Pandas | Numpy
+- **Exploratory Data Analysis (EDA):** Jupyter Notebooks / Kaggle Notebooks
+- **Visualization & Dashboarding:** Matplotlib | Seaborn | Plotly
 
 ## 🔍 Methodology
 This analysis followed a standard data analytics pipeline:
 
-1. **Data Extraction & Loading:** Data was queried from [Source] and loaded into [Tool].
+1. **Data Extraction & Loading:** Data was downloaded from Maven Analytics website and loaded into Kaggle.
 2. **Data Cleaning:**
-   - Handled missing values in [Column Name] using [method, e.g., imputation or removal].
-   - Removed duplicate entries and corrected data type mismatches.
-   - Standardized date formats and categorical labels.
+   - The dataset has no need for extensive cleaning as the integrity and usability is proper.
+   - Standardized date formats for all `created_at` columns.
 3. **Exploratory Data Analysis (EDA):**
-   - Conducted univariate analysis to understand distributions.
-   - Performed bivariate analysis to test hypotheses regarding [Variable X] vs [Variable Y].
-4. **Feature Engineering:** Created new metrics such as [e.g., "Customer Lifetime Value" or "Month-over-Month Growth"].
-5. **Visualization:** Built interactive dashboards to highlight key trends.
+   - Used line charts to identify trends in revenue, conversions, and traffic.
+   - Used Sankey diagram to identify traffic paths/customer journey.
+   - Used `pd.DataFrame.groupby()` to aggregate data and understand trends.
+   - Used stacked area charts to compare product sales and traffic by channel over time.
+4. **Feature Engineering:**
+   - Created new metrics such as:
+     - conversion rates
+     - end-of-week sales aggregation
+     - journey map label
+     - QoQ growth
+6. **Visualization:** Built interactive dashboards to highlight key trends.
 
 ## 💡 Key Findings & Insights
 Based on the analysis, the following insights were discovered:
