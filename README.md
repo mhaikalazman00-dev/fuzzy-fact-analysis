@@ -28,9 +28,12 @@ The core challenge addressed in this analysis is:
 - Provide recommendations to improve sales.
 
 ## 📂 Data Source
-The dataset used for this analysis was obtained from [Source Name/Link].
-- **Date Range:** [Start Date] to [End Date]
-- **Record Count:** [Number] rows
+The dataset used for this analysis was obtained from [Maven Analytics](https://mavenanalytics.io/).
+- **Date Range:** March 19th 2012 to March 19th 2015
+- **Record Count:**
+   - orders_df: 32313
+   - order_items_df: 40025
+   - 
 - **Columns:** [Number] features (e.g., `customer_id`, `transaction_date`, `revenue`, `region`)
 
 *Note: The raw data has been cleaned and pre-processed. See the [Methodology](#methodology) section for details.*
