@@ -82,7 +82,7 @@ Based on the analysis, the following insights were discovered:
 ## 📊 Visualization Gallery
 *Below are key screenshots from the analysis. Click to view the interactive dashboard.*
 
-![Sankey Diagram](path/to/newplot (1).png)
+![Sankey Diagram](path/to/sankey.png)
 *Figure 1: Overview of sales performance by region.*
 
 ![Trend Analysis](path/to/screenshot2.png)
