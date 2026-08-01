@@ -80,18 +80,16 @@ Based on the analysis, the following insights were discovered:
 
 
 ## 📊 Visualization Gallery
-*Below are key screenshots from the analysis. Click to view the interactive dashboard.*
+*Below are key screenshots from the analysis.*
+
+![Trend Analysis](weekend_dip.png)
+*Figure 1: Weekend sales dip and orders placed by day of week.*
 
 ![Sankey Diagram](sankey.png)
-*Figure 1: Overview of customer traffic for 2013-2015.*
+*Figure 2: Overview of customer traffic for 2013-2015.*
 
-![Trend Analysis](path/to/screenshot2.png)
-*Figure 2: Monthly revenue trend showing a 15% increase in Q3.*
-
-> **View Live Dashboard:** [Insert Link to Tableau Public/Power BI Service/Streamlit App]
-
-## 🚀 How to Reproduce
-To run this project locally:
+![Seasonality Effect](product_competition.png)
+*Figure 3: Line chart for `The Forever Love Bear` and `The Original Mr. Fuzzy` .*
 
 1. **Clone the repository:**
    ```bash
