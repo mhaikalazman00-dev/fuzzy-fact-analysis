@@ -9,16 +9,16 @@ Analyzing 3 years of sales records with 30k+ orders and 470k+ sessions to identi
 - [Methodology](#methodology)
 - [Key Findings & Insights](#key-findings--insights)
 - [Visualization Gallery](#visualization-gallery)
-- [How to Reproduce](#how-to-reproduce)
-- [Conclusion & Next Steps](#conclusion--next-steps)
+- [Next Steps](next-steps)
+- [Conclusion](#conclusion)
 - [Contact](#contact)
 
 ---
 
-## 📌 Overview
+## <a name='overview'></a>Overview
 This project analyzes a database entailing order records, session metadata, and website analytics to optimize revenue acquisition. The goal is to find room for optimization based on trends and make actionable insights that can help stakeholders make data-driven decisions regarding their future strategies.
 
-## 🎯 Problem Statement
+## <a name='problem-statement'></a>🎯 Problem Statement
 The core challenge addressed in this analysis is:
 > Maven Fuzzy Factory is scaling its e-commerce operations and recognizes the need to better understand its business landscape. With transactional and site traffic data spanning 2012–2015, the company seeks to conduct an exploratory diagnostic analysis to uncover patterns, trends, and potential opportunities.
 
@@ -27,7 +27,7 @@ The core challenge addressed in this analysis is:
 - Generate hypotheses for deeper investigation or future analysis.
 - Provide recommendations to improve sales.
 
-## 📂 Data Source
+## <a name='data-source'></a>📂 Data Source
 The dataset used for this analysis was obtained from [Maven Analytics](https://mavenanalytics.io/).
 - **Date Range:** March 19th 2012 to March 19th 2015
 - **Record Count:**
@@ -44,13 +44,13 @@ The dataset used for this analysis was obtained from [Maven Analytics](https://m
 
 *Note: The raw data has been cleaned and pre-processed. See the [Methodology](#methodology) section for details.*
 
-## 🛠 Tools & Technologies
+## <a name='tools--technologies'></a>🛠 Tools & Technologies
 - **Data Extraction/Storage:** Python | Pandas
 - **Data Cleaning:** Python | Pandas | Numpy
 - **Exploratory Data Analysis (EDA):** Jupyter Notebooks / Kaggle Notebooks
 - **Visualization & Dashboarding:** Matplotlib | Seaborn | Plotly
 
-## 🔍 Methodology
+## <a name='methodology'></a>🔍 Methodology
 This analysis followed a standard data analytics pipeline:
 
 1. **Data Extraction & Loading:** Data was downloaded from Maven Analytics website and loaded into Kaggle.
@@ -70,7 +70,7 @@ This analysis followed a standard data analytics pipeline:
      - QoQ growth
 6. **Visualization:** Built charts and visuals to highlight key trends (refer to gallery).
 
-## 💡 Key Findings & Insights
+## <a name='key-findings--insights'></a>💡 Key Findings & Insights
 Based on the analysis, the following insights were discovered:
 
 - **Insight 1:** Weekend-Weekday Traffic Gap – Maven Fuzzy Factory has significantly lesser traffic during weekends compared to weekdays, while maintaining similar conversion rates. This leads to weekly sales dips and signals lost opportunities for the business. While QoQ shows steady growth throughout the 3-year period, the gap between weekend sales and weekday sales are widening. Optimizing weekend traffic to scale with weekday sales  by even 10% has the potential to increase yearly revenue by over USD13k.
@@ -79,7 +79,7 @@ Based on the analysis, the following insights were discovered:
 - **Insight 4:** Lack of Seasonality – On top of the visibility concerns and consolidated products portfolio, there is a concern for future losses in the next seasonal cycle. Analysis shows that `The Original Mr. Fuzzy`'s sales drops by almost half on Valentine's day, while `The Forever Love Bear` sales spikes by three times their typical sales. Currently, `The Original Mr. Fuzzy`'s losses are covered by `The Forever Love Bear`'s sales, but the coverage are decreasing due to `The Forever Love Bear`'s sales are unable to scale with `The Original Mr. Fuzzy`.
 
 
-## 📊 Visualization Gallery
+## <a name="visualization-gallery"></a>📊 Visualization Gallery
 *Below are key screenshots from the analysis.*
 
 ![Trend Analysis](weekend_dip.png)
@@ -91,7 +91,23 @@ Based on the analysis, the following insights were discovered:
 ![Seasonality Effect](product_competition.png)
 *Figure 3: Line chart for `The Forever Love Bear` and `The Original Mr. Fuzzy` .*
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/yourusername/[project-name].git
-   cd [project-name]
+## <a name="next-steps"></a>Next Steps
+1. **Marketing Campaign Expansion:**
+   - Referral campaigns for future discounts and coupons will expand data maturity for future analysis, while also expanding the customer base. This action has the potential to increase traffic and retention, enable geospatial analysis for customer segmentation, supports future R&D, and opens the door for an email marketing campaigns.
+   - Expanding the marketing channels to social media platforms can increase visibility, as social media platforms have a high traffic density daily. This will help bridge the gap between weekend and weekday traffic.
+   - Discount campaigns or flash sales will also increase traffic and sales.
+2. **Launching Purposeful Products:**
+   - There are two possible paths for the next products; commemorative items with seasonality appeal and day-to-day items that's reliably in-demand.
+   - Commemorative items with seasonality like `The Forever Love Bear` have the potential to create a healthier products portfolio that brings additional profit. For example; expanding this product segment to Easter-themed, Lunar New Year-themed, and/or Christmas-themed can introduce new sales spikes for additional revenue.
+   - Day-to-day items like `The Original Mr. Fuzzy` have the potential to be a reliable sales driver and compete all-year. This product segment's purpose is to drive retention up and pull customers for repeat purchases.
+3. **Investigate Web Design:**
+   - Ensure all products have an equal chance of being selected by customers and verify `The Original Mr. Fuzzy`'s popularity is customer driven, not influenced by the web design.
+  
+## <a name="conclusion"></a>Conclusion
+This analysis implies that Maven Fuzzy Factory has demonstrated steady growth over three years with a reliable customer acquisition funnel across all channels. However, the business has clear optimization opportunities that can unlock further growth. By applying fresh strategies to attract more customers into the website, this business will be able to grow their revenue even further. 
+
+## <a name="contact"></a>📬 Contact
+For further questions regarding this analysis or to discuss potential implementation strategies:
+
+- **Email:** mhaikalazman00@gmail.com
+- **GitHub:** https://github.com/mhaikalazman00-dev
