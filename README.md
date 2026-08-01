@@ -82,8 +82,8 @@ Based on the analysis, the following insights were discovered:
 ## 📊 Visualization Gallery
 *Below are key screenshots from the analysis. Click to view the interactive dashboard.*
 
-![Sankey Diagram](path/to/sankey.png)
-*Figure 1: Overview of sales performance by region.*
+![Sankey Diagram](sankey.png)
+*Figure 1: Overview of customer traffic for 2013-2015.*
 
 ![Trend Analysis](path/to/screenshot2.png)
 *Figure 2: Monthly revenue trend showing a 15% increase in Q3.*
