@@ -36,7 +36,7 @@ The dataset used for this analysis was obtained from [Maven Analytics](https://m
    - sessions_df: 472871
    - pageviews_df: 1188124
  
-- **Columns:** [Number] features (e.g., `customer_id`, `transaction_date`, `revenue`, `region`)
+- **Columns:** 
   - orders_df: 8 features: `order_id`, `created_at`, `website_session_id`, `user_id`, `primary_product_id`, `items_purchased`, `price_usd`, `cogs_usd`
   - order_items_df: 7 features: `order_item_id`, `created_at_id`, `order_id`, `product_id`, `is_primary_item`, `price_usd`, `cogs_usd`
   - sessions_df: 9 features: `website_session_id`, `created_at`, `user_id`, `is_repeat_session`, `utm_source`, `utm_campaign`, `utm_content`, `device_type`, `http_referrer`
